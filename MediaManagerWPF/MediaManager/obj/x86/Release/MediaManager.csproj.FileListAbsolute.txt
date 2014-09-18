@@ -1,0 +1,187 @@
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\MediaManager.exe.config
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\MediaManager.exe
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\MediaManager.pdb
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\RestSharp.dll
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\WatTmdb.dll
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\YouTubeViewer.baml
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\YouTubeViewer.g.cs
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\View\MainWindow.g.cs
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\App.g.cs
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager_MarkupCompile.cache
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager_MarkupCompile.lref
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\View\MainWindow.baml
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.g.resources
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.Properties.Resources.resources
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.exe
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.pdb
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\bin\Release\MediaManager.exe.config
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.exe
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.pdb
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\bin\Release\MediaManager.exe
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\bin\Release\MediaManager.pdb
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\bin\Release\RestSharp.dll
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\bin\Release\WatTmdb.dll
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\YouTubeViewer.baml
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\YouTubeViewer.g.cs
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\View\MainWindow.g.cs
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\App.g.cs
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager_MarkupCompile.cache
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager_MarkupCompile.lref
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\View\MainWindow.baml
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.g.resources
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.Properties.Resources.resources
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\Block.baml
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\Block.g.cs
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\LoadingAnimation.g.cs
+C:\Users\yfraimorice\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\LoadingAnimation.baml
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\bin\Release\MediaManager.exe.config
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.exe
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.pdb
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\bin\Release\MediaManager.exe
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\bin\Release\MediaManager.pdb
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\bin\Release\RestSharp.dll
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\bin\Release\WatTmdb.dll
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.csprojResolveAssemblyReference.cache
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\Block.baml
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\YouTubeViewer.baml
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\Block.g.cs
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\LoadingAnimation.g.cs
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\YouTubeViewer.g.cs
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\View\MainWindow.g.cs
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\App.g.cs
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager_MarkupCompile.cache
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager_MarkupCompile.lref
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\LoadingAnimation.baml
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\View\MainWindow.baml
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.g.resources
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.Properties.Resources.resources
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.csproj.GenerateResource.Cache
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Skins\MainSkin.baml
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\View\Styles\HeadersAndTextStyles.baml
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\bin\Release\GalaSoft.MvvmLight.Extras.WPF4.dll
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\bin\Release\GalaSoft.MvvmLight.WPF4.dll
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\bin\Release\GalaSoft.MvvmLight.Extras.WPF4.xml
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\bin\Release\GalaSoft.MvvmLight.WPF4.xml
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\bin\Release\System.Windows.Interactivity.xml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\MediaManager.exe.config
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.exe
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.pdb
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\CastControl.baml
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\CastControl.g.cs
+C:\Users\Jake\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\App.baml
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.csprojResolveAssemblyReference.cache
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\Block.baml
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Skins\MainSkin.baml
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\View\Styles\HeadersAndTextStyles.baml
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\Block.g.cs
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\CastControl.g.cs
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\LoadingAnimation.g.cs
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\GalaSoft.MvvmLight.Extras.WPF4.dll
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\GalaSoft.MvvmLight.WPF4.dll
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\GalaSoft.MvvmLight.Extras.WPF4.xml
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\GalaSoft.MvvmLight.WPF4.xml
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\System.Windows.Interactivity.xml
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\App.baml
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\CastControl.baml
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\LoadingAnimation.baml
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.csproj.GenerateResource.Cache
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\Microsoft.Practices.Unity.dll
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\Microsoft.Practices.Unity.xml
+C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\MediaManager.exe
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\MediaManager.pdb
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\GalaSoft.MvvmLight.Extras.WPF4.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\GalaSoft.MvvmLight.WPF4.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\Microsoft.Practices.Unity.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\RestSharp.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\System.Windows.Interactivity.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\WatTmdb.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\GalaSoft.MvvmLight.Extras.WPF4.xml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\GalaSoft.MvvmLight.WPF4.xml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\Microsoft.Practices.Unity.xml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\de\System.Windows.Interactivity.resources.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\en\System.Windows.Interactivity.resources.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\es\System.Windows.Interactivity.resources.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\fr\System.Windows.Interactivity.resources.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\it\System.Windows.Interactivity.resources.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\ja\System.Windows.Interactivity.resources.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\ko\System.Windows.Interactivity.resources.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\ru\System.Windows.Interactivity.resources.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.csprojResolveAssemblyReference.cache
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\Block.baml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\YouTubeViewer.baml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Skins\MainSkin.baml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\View\Styles\HeadersAndTextStyles.baml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\Block.g.cs
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\CastControl.g.cs
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\LoadingAnimation.g.cs
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\YouTubeViewer.g.cs
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\View\MainWindow.g.cs
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\App.g.cs
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager_MarkupCompile.cache
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager_MarkupCompile.lref
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\App.baml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\CastControl.baml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\Controls\LoadingAnimation.baml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\View\MainWindow.baml
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.g.resources
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.Properties.Resources.resources
+D:\My Docs\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Release\MediaManager.csproj.GenerateResource.Cache
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\MediaManager.exe.config
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\MediaManager.exe
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\MediaManager.pdb
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\GalaSoft.MvvmLight.Extras.WPF4.dll
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\GalaSoft.MvvmLight.WPF4.dll
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\Microsoft.Practices.Unity.dll
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\RestSharp.dll
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\System.Windows.Interactivity.dll
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\WatTmdb.dll
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\GalaSoft.MvvmLight.Extras.WPF4.xml
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\GalaSoft.MvvmLight.WPF4.xml
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\Microsoft.Practices.Unity.xml
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\MediaManager.csprojResolveAssemblyReference.cache
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\Controls\Block.baml
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\Controls\YouTubeViewer.baml
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\Skins\MainSkin.baml
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\View\Styles\HeadersAndTextStyles.baml
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\Controls\Block.g.cs
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\Controls\CastControl.g.cs
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\Controls\LoadingAnimation.g.cs
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\Controls\YouTubeViewer.g.cs
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\View\MainWindow.g.cs
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\App.g.cs
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\MediaManager_MarkupCompile.cache
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\MediaManager_MarkupCompile.lref
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\App.baml
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\Controls\CastControl.baml
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\Controls\LoadingAnimation.baml
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\View\MainWindow.baml
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\MediaManager.g.resources
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\MediaManager.Properties.Resources.resources
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\MediaManager.csproj.GenerateResource.Cache
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\MediaManager.exe
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\obj\x86\Release\MediaManager.pdb
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\MahApps.Metro.dll
+D:\My Docs\Dropbox\Projects\MediaManagerWPF\MediaManager\bin\Release\MahApps.Metro.xml

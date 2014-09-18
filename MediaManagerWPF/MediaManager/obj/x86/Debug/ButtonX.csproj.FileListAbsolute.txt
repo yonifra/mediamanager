@@ -1,0 +1,55 @@
+c:\users\yfraimorice\documents\visual studio 2010\Projects\ButtonX\ButtonX\bin\Debug\ButtonX.exe
+c:\users\yfraimorice\documents\visual studio 2010\Projects\ButtonX\ButtonX\bin\Debug\ButtonX.pdb
+c:\users\yfraimorice\documents\visual studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\yfraimorice\documents\visual studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\MainWindow.baml
+c:\users\yfraimorice\documents\visual studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\MainWindow.g.cs
+c:\users\yfraimorice\documents\visual studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\App.g.cs
+c:\users\yfraimorice\documents\visual studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX_MarkupCompile.cache
+c:\users\yfraimorice\documents\visual studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX.g.resources
+c:\users\yfraimorice\documents\visual studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX.Properties.Resources.resources
+c:\users\yfraimorice\documents\visual studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\yfraimorice\documents\visual studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\yfraimorice\documents\visual studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX.exe
+c:\users\yfraimorice\documents\visual studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX.pdb
+C:\Users\yfraimorice\Documents\Visual Studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\SDUFovControl.baml
+C:\Users\yfraimorice\Documents\Visual Studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\SDUFovControl.g.cs
+C:\Users\yfraimorice\Documents\Visual Studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\yfraimorice\Documents\Visual Studio 2010\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX_MarkupCompile.lref
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX.exe
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX.pdb
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\bin\Debug\ButtonX.exe
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\bin\Debug\ButtonX.pdb
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\SDUFovControl.g.cs
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\App.g.cs
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX_MarkupCompile.cache
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX_MarkupCompile.lref
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\MainWindow.baml
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\SDUFovControl.baml
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX.g.resources
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX.Properties.Resources.resources
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jake\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX.exe
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX.pdb
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\bin\Debug\ButtonX.exe
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\bin\Debug\ButtonX.pdb
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\MainWindow.g.cs
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\SDUFovControl.g.cs
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\App.g.cs
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX_MarkupCompile.cache
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX_MarkupCompile.lref
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\MainWindow.baml
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\SDUFovControl.baml
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX.g.resources
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\ButtonX.Properties.Resources.resources
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\DockPanelFill.baml
+C:\Users\yfraimorice\Dropbox\Projects\ButtonX\ButtonX\obj\x86\Debug\DockPanelFill.g.cs
+C:\Users\yfraimorice\Dropbox\Projects\Media\ButtonX\obj\x86\Debug\ButtonX.exe
+C:\Users\yfraimorice\Dropbox\Projects\Media\ButtonX\obj\x86\Debug\ButtonX.pdb

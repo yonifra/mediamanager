@@ -1,0 +1,230 @@
+﻿<controls1:MetroWindow x:Class="MediaManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:conv="clr-namespace:MediaManager.Converters"
+        xmlns:controls="clr-namespace:MediaManager.Controls"
+        ShowCloseButton="True"
+        ShowMaxRestoreButton="False"
+        ShowMinButton="False"
+        xmlns:v3="clr-namespace:WatTmdb.V3;assembly=WatTmdb" xmlns:viewModel="clr-namespace:MediaManager.ViewModel"
+        xmlns:controls1="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                       xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+                       Title="Media Manager" WindowState="Maximized" Icon="/MediaManager;component/Images/osa_server_media.png">
+    <controls1:MetroWindow.Resources>
+        <viewModel:MovieInfoViewModel x:Key="MovieInfoViewModel" />
+        <conv:ActorToImageConverter x:Key="ActorToImageConverter" />
+        <BooleanToVisibilityConverter x:Key="booleanToVisibilityConverter" />
+
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1" x:Key="BoxBackground" Opacity="0.8">
+            <GradientStopCollection>
+                <GradientStop Offset="0" Color="Black" />
+                <GradientStop Offset="0.3" Color="Black" />
+                <GradientStop Offset="1" Color="DarkGray"/>
+            </GradientStopCollection>
+        </LinearGradientBrush>
+
+    </controls1:MetroWindow.Resources>
+
+    <controls1:MetroWindow.RightWindowCommands>
+        <controls1:WindowCommands>
+            <!--<Button Content="settings" />
+            <Button>
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="20" Height="20"
+                   Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                    </Rectangle>
+                    <TextBlock Margin="4 0 0 0"
+                   VerticalAlignment="Center"
+                   Text="deploy cupcakes" />
+                </StackPanel>
+            </Button>-->
+        </controls1:WindowCommands>
+    </controls1:MetroWindow.RightWindowCommands>
+
+    <Grid DataContext="{Binding Source={StaticResource MovieInfoViewModel}}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" HorizontalAlignment="Right" ZIndex="100" Margin="0,15,15,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <DockPanel Grid.Column="1" Visibility="{Binding IsLoading, Converter={StaticResource booleanToVisibilityConverter}}" Width="30" Height="30" HorizontalAlignment="Left" Margin="5,0,5,0">
+                <controls:LoadingAnimation>
+                    <controls:LoadingAnimation.RenderTransform>
+                        <ScaleTransform ScaleX="0.35" ScaleY="0.35" />
+                    </controls:LoadingAnimation.RenderTransform>
+                </controls:LoadingAnimation>
+            </DockPanel>
+
+            <StackPanel Orientation="Horizontal" Grid.Column="0" HorizontalAlignment="Center" Margin="5">
+                <TextBox Text="{Binding MovieToSearch}" Width="260" FontFamily="Roboto" FontSize="20" Margin="5,0,5,0" Opacity="0.6" />
+                <Button Content="Search" Command="{Binding Path=SearchMovieCommand}" Width="70" FontFamily="Roboto" FontSize="14" Opacity="0.6"/>
+                <ComboBox Margin="10,0,0,0" Width="120" ItemsSource="{Binding MovieResults}" SelectedItem="{Binding SelectedMovie}" 
+                          FontFamily="Roboto" VerticalContentAlignment="Center" FontSize="14"
+                          Visibility="{Binding IsLoaded, Converter={StaticResource booleanToVisibilityConverter}}" Opacity="0.6">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate DataType="v3:MovieResult">
+                            <TextBlock Text="{Binding original_title}" VerticalAlignment="Center" FontFamily="Roboto" FontSize="13" />
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ComboBox>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="0" Grid.RowSpan="2" Name="MainGrid" ZIndex="99">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3.5*" />
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Border Background="{StaticResource BoxBackground}" BorderThickness="1" BorderBrush="Black" CornerRadius="15" Margin="10" Visibility="{Binding InfoVisibility}">
+                    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Left" Margin="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Stretch" Background="Transparent" Visibility="{Binding IsLoaded, Converter={StaticResource booleanToVisibilityConverter}}">
+                                <Border CornerRadius="10,10,0,0">
+                                    <Image Stretch="Uniform" Source="{Binding Poster}" Width="300" />
+                                </Border>
+                                <Border CornerRadius="0,0,10,10">
+                                    <Image Stretch="Fill" Source="{Binding Poster}" Opacity="0.75" Width="300" Height="200">
+                                        <Image.LayoutTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform ScaleY="-1" />
+                                            </TransformGroup>
+                                        </Image.LayoutTransform>
+                                        <Image.OpacityMask>
+                                            <LinearGradientBrush StartPoint="0.5,0.0" EndPoint="0.5,1.0">
+                                                <GradientStop Offset="0.0" Color="#00000000" />
+                                                <GradientStop Offset="1.0" Color="#FF000000" />
+                                            </LinearGradientBrush>
+                                        </Image.OpacityMask>
+                                    </Image>
+                                </Border>
+                            </StackPanel>
+                        </Grid>
+
+                        <Grid VerticalAlignment="Top" HorizontalAlignment="Stretch" Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <StackPanel Orientation="Horizontal" Grid.Row="0">
+                                <TextBlock Style="{StaticResource HeaderTextStyle}" Text="{Binding Name}" Margin="10,10,5,0" VerticalAlignment="Bottom" />
+                                <TextBlock Style="{StaticResource RegularTextStyle}" Text="{Binding Year}" Margin="5,10,10,4" VerticalAlignment="Bottom" />
+                                <TextBlock Style="{StaticResource RegularTextStyle}" Text="{Binding MovieGenre}" Margin="5,10,10,4" VerticalAlignment="Bottom" />
+                            </StackPanel>
+
+                            <TextBlock Style="{StaticResource SmallHeaderTextStyle}" Grid.Row="1" FontStyle="Italic" Text="{Binding Tagline}" Margin="10,5,10,0" VerticalAlignment="Center"/>
+
+                            <StackPanel Orientation="Horizontal" Grid.Row="2">
+                                <TextBlock Style="{StaticResource SmallHeaderTextStyle}" Text="{Binding Rating}" Margin="10,5,10,0" VerticalAlignment="Center" />
+                                <TextBlock Style="{StaticResource SmallHeaderTextStyle}" Text="{Binding RuntimeText}" Margin="10,5,10,0" VerticalAlignment="Center" />
+                                <TextBlock Style="{StaticResource SmallHeaderTextStyle}" Text="{Binding RevenueText}" Margin="10,5,10,0" VerticalAlignment="Center" />
+                            </StackPanel>
+
+                            <TextBlock Style="{StaticResource RegularTextStyle}" Grid.Row="3" Text="{Binding SynopsisHeader}" Margin="10,20,10,0" />
+
+                            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Grid.Row="4">
+                                <TextBlock Style="{StaticResource RegularTextStyle}" Text="{Binding Synopsis}" TextWrapping="Wrap" Margin="10,5,10,0" />
+                            </ScrollViewer>
+
+                            <TextBlock Style="{StaticResource RegularTextStyle}" Text="{Binding CastHeader}" Margin="10,20,10,0" Grid.Row="5" />
+
+                            <Grid Grid.Row="6">
+                                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+                                    <ItemsControl ItemsSource="{Binding CastMembers}" VerticalAlignment="Stretch" Margin="10,5,10,0">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate DataType="v3:Cast">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Source="{Binding profile_path, Converter={StaticResource ActorToImageConverter}}" MaxWidth="40" Stretch="UniformToFill" Opacity="1" Margin="10,5" />
+                                                    <TextBlock Text="{Binding name}" Style="{StaticResource RegularTextStyle}" FontWeight="Regular" VerticalAlignment="Center" />
+                                                    <TextBlock Text=" as " Style="{StaticResource RegularTextStyle}" VerticalAlignment="Center" />
+                                                    <TextBlock Text="{Binding character}" Style="{StaticResource RegularTextStyle}" FontStyle="Italic" VerticalAlignment="Center" />
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                        <ItemsControl.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <UniformGrid Columns="3"/>
+                                            </ItemsPanelTemplate>
+                                        </ItemsControl.ItemsPanel>
+                                    </ItemsControl>
+                                </ScrollViewer>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Border>
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="4*"/>
+                    </Grid.ColumnDefinitions>
+                    <!-- Trailer Box -->
+                    <Border Grid.Column="0" Background="{StaticResource BoxBackground}" BorderBrush="Black" BorderThickness="1" CornerRadius="15" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Opacity="0.8" Margin="10" Visibility="{Binding TrailerVisibility}">
+                        <Grid Margin="5">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Style="{StaticResource HeaderTextStyle}" Grid.Row="0" Text="Trailer" Margin="10,10,5,0" />
+                                <controls:YouTubeViewer Grid.Row="1" Source="{Binding TrailerSource}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                            </Grid>
+                        </Grid>
+                    </Border>
+
+                    <Border Grid.Column="1" Background="{StaticResource BoxBackground}" BorderBrush="Black" BorderThickness="1" CornerRadius="15" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Opacity="0.8" Margin="10" Visibility="{Binding TrailerVisibility}">
+                        <Grid Margin="5">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Style="{StaticResource HeaderTextStyle}" Grid.Row="0" Text="Similar Movies" Margin="10,10,5,0" />
+
+                                <ScrollViewer Grid.Row="1">
+                                    <ListView ItemsSource="{Binding SimilarMoviesCollection}">
+                                        <ListView.ItemTemplate>
+                                            <DataTemplate DataType="viewModel:MovieViewModel">
+                                                <controls:ClickableImage Source="{Binding Poster}" Width="92" Height="138" Margin="10,0">
+                                                    <i:Interaction.Triggers>
+                                                        <i:EventTrigger EventName="MouseLeftButtonDoubleClickEvent">
+                                                            <i:InvokeCommandAction Command="{Binding LoadMovieCommand}" />
+                                                        </i:EventTrigger>
+                                                    </i:Interaction.Triggers>
+                                                </controls:ClickableImage>
+                                            </DataTemplate>
+                                        </ListView.ItemTemplate>
+                                        <ListView.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <StackPanel Orientation="Horizontal" />
+                                            </ItemsPanelTemplate>
+                                        </ListView.ItemsPanel>
+                                    </ListView>
+                                </ScrollViewer>
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </Grid>
+                <Grid.Background>
+                    <ImageBrush ImageSource="{Binding BackgroundPoster}" Stretch="UniformToFill" />
+                </Grid.Background>
+            </Grid>
+        </Grid>
+    </Grid>
+</controls1:MetroWindow>
