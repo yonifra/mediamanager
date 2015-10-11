@@ -591,7 +591,7 @@ namespace MediaManager.ViewModel
                     Console.WriteLine("Problem loading posters for " + movie.original_title);
                 }
 
-                Revenue = movie.revenue;
+                Revenue = (int)movie.revenue;
                 Synopsis = movie.overview;
                 Tagline = movie.tagline;
                 Runtime = movie.runtime;

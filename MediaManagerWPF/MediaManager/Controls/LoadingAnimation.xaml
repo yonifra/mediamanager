@@ -5,7 +5,7 @@
     Height="Auto" Width="Auto">
     <UserControl.Resources>
         <Storyboard x:Key="ProgressAnimation" RepeatBehavior="Forever">
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="Black"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#EF000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#E2000000"/>
@@ -25,7 +25,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#0C000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#00000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block17" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block17" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#EF000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#E2000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#D3000000"/>
@@ -45,7 +45,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#00000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="Black"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block16" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block16" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#E2000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#D3000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#C6000000"/>
@@ -65,7 +65,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="Black"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#EF000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block15" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block15" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#D3000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#C6000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#B7000000"/>
@@ -85,7 +85,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#EF000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#E2000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block14" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block14" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#C6000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#B7000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#AA000000"/>
@@ -105,7 +105,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#E2000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#D3000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block13" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block13" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#B7000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#AA000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#9B000000"/>
@@ -125,7 +125,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#D3000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#C6000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block12" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block12" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#AA000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#9B000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#8E000000"/>
@@ -145,7 +145,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#C6000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#B7000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block11" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block11" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#9B000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#8E000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#7F000000"/>
@@ -165,7 +165,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#B7000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#AA000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block10" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block10" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#8E000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#7F000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#72000000"/>
@@ -185,7 +185,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#AA000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#9B000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block9" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block9" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#7F000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#72000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#63000000"/>
@@ -205,7 +205,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#9B000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#91000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block8" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block8" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#72000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#63000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#56000000"/>
@@ -225,7 +225,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#91000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#7F000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block7" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block7" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#63000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#56000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#3D000000"/>
@@ -245,7 +245,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#7F000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#72000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block6" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block6" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#56000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#3D000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#26000000"/>
@@ -265,7 +265,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#72000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#63000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block5" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block5" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#3D000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#26000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#19000000"/>
@@ -285,7 +285,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#63000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#56000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block4" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block4" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#26000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#19000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#0C000000"/>
@@ -305,7 +305,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#56000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#3D000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block3" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block3" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#19000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#0C000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#00000000"/>
@@ -325,7 +325,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#3D000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#26000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block2" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block2" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#0C000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="#00000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="Black"/>
@@ -345,7 +345,7 @@
                 <SplineColorKeyFrame KeyTime="00:00:03.6710000" Value="#26000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:03.9000000" Value="#19000000"/>
             </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="block1" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
+            <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Block1" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
                 <SplineColorKeyFrame KeyTime="00:00:00" Value="#00000000"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.2290000" Value="Black"/>
                 <SplineColorKeyFrame KeyTime="00:00:00.4590000" Value="#EF000000"/>
@@ -369,14 +369,14 @@
     </UserControl.Resources>
     <UserControl.Triggers>
         <EventTrigger RoutedEvent="FrameworkElement.Loaded">
-            <BeginStoryboard x:Name="ProgressAnimation_BeginStoryboard" Storyboard="{StaticResource ProgressAnimation}"/>
+            <BeginStoryboard x:Name="ProgressAnimationBeginStoryboard" Storyboard="{StaticResource ProgressAnimation}"/>
         </EventTrigger>
     </UserControl.Triggers>
 
     <Canvas x:Name="LayoutRoot" VerticalAlignment="Top" Height="88" Width="88">
         <TextBlock Text="Loading..." TextWrapping="Wrap" Canvas.Left="20.069" Canvas.Top="36.214"/>
         <Grid Width="10.734" Height="10.004" Canvas.Left="38.614" Canvas.Top="0.331">
-            <local:Block x:Name="block" RenderTransformOrigin="0.5,4.3689" OpacityMask="#00000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block" RenderTransformOrigin="0.5,4.3689" OpacityMask="#00000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -386,7 +386,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block1" RenderTransformOrigin="0.5,4.3689" OpacityMask="#0C000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block1" RenderTransformOrigin="0.5,4.3689" OpacityMask="#0C000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="0.99999999999999989" ScaleY="0.99999999999999989"/>
@@ -396,7 +396,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block2" RenderTransformOrigin="0.5,4.3689" OpacityMask="#19000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block2" RenderTransformOrigin="0.5,4.3689" OpacityMask="#19000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -406,7 +406,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block3" RenderTransformOrigin="0.5,4.3689" OpacityMask="#26000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block3" RenderTransformOrigin="0.5,4.3689" OpacityMask="#26000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="0.99999999999999989" ScaleY="0.99999999999999989"/>
@@ -416,7 +416,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block4" RenderTransformOrigin="0.5,4.3689" OpacityMask="#3D000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block4" RenderTransformOrigin="0.5,4.3689" OpacityMask="#3D000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="0.99999999999999989" ScaleY="0.99999999999999989"/>
@@ -426,7 +426,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block5" RenderTransformOrigin="0.5,4.3689" OpacityMask="#56000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block5" RenderTransformOrigin="0.5,4.3689" OpacityMask="#56000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="0.99999999999999989" ScaleY="0.99999999999999989"/>
@@ -436,7 +436,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block6" RenderTransformOrigin="0.5,4.3689" OpacityMask="#64000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block6" RenderTransformOrigin="0.5,4.3689" OpacityMask="#64000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -446,7 +446,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block7" RenderTransformOrigin="0.5,4.3689" OpacityMask="#72000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block7" RenderTransformOrigin="0.5,4.3689" OpacityMask="#72000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="0.99999999999999989" ScaleY="0.99999999999999989"/>
@@ -456,7 +456,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block8" RenderTransformOrigin="0.5,4.3689" OpacityMask="#80000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block8" RenderTransformOrigin="0.5,4.3689" OpacityMask="#80000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -466,8 +466,8 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block9" OpacityMask="#8E000000" RenderTransformOrigin="0.5,4.3689" VerticalAlignment="Top" Height="10.004"/>
-            <local:Block x:Name="block10" RenderTransformOrigin="0.5,4.3689" OpacityMask="#9C000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block9" OpacityMask="#8E000000" RenderTransformOrigin="0.5,4.3689" VerticalAlignment="Top" Height="10.004"/>
+            <local:Block x:Name="Block10" RenderTransformOrigin="0.5,4.3689" OpacityMask="#9C000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -477,7 +477,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block11" RenderTransformOrigin="0.5,4.3689" OpacityMask="#AA000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block11" RenderTransformOrigin="0.5,4.3689" OpacityMask="#AA000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="0.99999999999999989" ScaleY="0.99999999999999989"/>
@@ -487,7 +487,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block12" RenderTransformOrigin="0.5,4.3689" OpacityMask="#B8000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block12" RenderTransformOrigin="0.5,4.3689" OpacityMask="#B8000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -497,7 +497,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block13" RenderTransformOrigin="0.5,4.3689" OpacityMask="#C6000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block13" RenderTransformOrigin="0.5,4.3689" OpacityMask="#C6000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="0.99999999999999989" ScaleY="0.99999999999999989"/>
@@ -507,7 +507,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block14" RenderTransformOrigin="0.5,4.3689" OpacityMask="#D4000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block14" RenderTransformOrigin="0.5,4.3689" OpacityMask="#D4000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="0.99999999999999989" ScaleY="0.99999999999999989"/>
@@ -517,7 +517,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block15" RenderTransformOrigin="0.5,4.3689" OpacityMask="#E2000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block15" RenderTransformOrigin="0.5,4.3689" OpacityMask="#E2000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="0.99999999999999989" ScaleY="0.99999999999999989"/>
@@ -527,7 +527,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block16" RenderTransformOrigin="0.5,4.3689" OpacityMask="#F0000000" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block16" RenderTransformOrigin="0.5,4.3689" OpacityMask="#F0000000" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -537,7 +537,7 @@
                     </TransformGroup>
                 </local:Block.RenderTransform>
             </local:Block>
-            <local:Block x:Name="block17" RenderTransformOrigin="0.5,4.3689" OpacityMask="Black" VerticalAlignment="Top" Height="10.004">
+            <local:Block x:Name="Block17" RenderTransformOrigin="0.5,4.3689" OpacityMask="Black" VerticalAlignment="Top" Height="10.004">
                 <local:Block.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="0.99999999999999989" ScaleY="0.99999999999999989"/>

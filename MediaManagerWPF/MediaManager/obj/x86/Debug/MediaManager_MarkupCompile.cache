@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\obj\x86\Debug\
+C:\Users\yonif\Source\Repos\mediamanager\MediaManagerWPF\MediaManager\obj\x86\Debug\
 MediaManager
 none
 false
 DEBUG;TRACE
-C:\Users\Yoni\Dropbox\Projects\MediaManager\MediaManager\App.xaml
-21836887640
-
-10-1551724005
-14-1585646186
-Controls\YouTubeViewer.xaml;View\MainWindow.xaml;
+C:\Users\yonif\Source\Repos\mediamanager\MediaManagerWPF\MediaManager\App.xaml
+7-1592534411
+2-271742266
+20391573836
+76957027990
+Controls\Block.xaml;Controls\CastControl.xaml;Controls\LoadingAnimation.xaml;Controls\YouTubeViewer.xaml;Skins\MainSkin.xaml;View\MainWindow.xaml;View\Styles\HeadersAndTextStyles.xaml;
 
 False
 

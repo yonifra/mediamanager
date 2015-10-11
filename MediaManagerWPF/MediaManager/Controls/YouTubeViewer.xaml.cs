@@ -36,7 +36,7 @@ namespace MediaManager.Controls
 
     public static void SourceChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
     {
-      ((YouTubeViewer)d).browser.Source = (Uri)e.NewValue;
+      ((YouTubeViewer)d).Browser.Source = (Uri)e.NewValue;
     }
   }
 }

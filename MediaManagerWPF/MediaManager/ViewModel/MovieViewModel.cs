@@ -10,36 +10,36 @@ namespace MediaManager.ViewModel
 {
     public class MovieViewModel : ViewModelBase
     {
-        private readonly int mMovieId;
-        private readonly RelayCommand mLoadMovieCommand;
-        private readonly BitmapImage mPoster;
+        private readonly int _mMovieId;
+        private readonly RelayCommand _mLoadMovieCommand;
+        private readonly BitmapImage _mPoster;
 
         public MovieViewModel(int movieId, BitmapImage poster, MovieInfoViewModel context)
         {
-            mMovieId = movieId;
-            mPoster = poster;
+            _mMovieId = movieId;
+            _mPoster = poster;
             Context = context;
-            mLoadMovieCommand = new RelayCommand(LoadMovieExecute);
+            _mLoadMovieCommand = new RelayCommand(LoadMovieExecute);
         }
 
         private void LoadMovieExecute(object obj)
         {
-            Context.UpdateMovieInfo(mMovieId);
+            Context.UpdateMovieInfo(_mMovieId);
         }
 
         public BitmapImage Poster
         {
-            get { return mPoster; }
+            get { return _mPoster; }
         }
 
         public int MovieId
         {
-            get { return mMovieId; }
+            get { return _mMovieId; }
         }
 
         public RelayCommand LoadMovieCommand
         {
-            get { return mLoadMovieCommand; }
+            get { return _mLoadMovieCommand; }
         }
 
         public MovieInfoViewModel Context { get; set; }

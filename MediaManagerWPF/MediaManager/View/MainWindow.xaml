@@ -13,7 +13,7 @@
     <controls1:MetroWindow.Resources>
         <viewModel:MovieInfoViewModel x:Key="MovieInfoViewModel" />
         <conv:ActorToImageConverter x:Key="ActorToImageConverter" />
-        <BooleanToVisibilityConverter x:Key="booleanToVisibilityConverter" />
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
 
         <LinearGradientBrush StartPoint="0,0" EndPoint="0,1" x:Key="BoxBackground" Opacity="0.8">
             <GradientStopCollection>
@@ -52,7 +52,7 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <DockPanel Grid.Column="1" Visibility="{Binding IsLoading, Converter={StaticResource booleanToVisibilityConverter}}" Width="30" Height="30" HorizontalAlignment="Left" Margin="5,0,5,0">
+            <DockPanel Grid.Column="1" Visibility="{Binding IsLoading, Converter={StaticResource BooleanToVisibilityConverter}}" Width="30" Height="30" HorizontalAlignment="Left" Margin="5,0,5,0">
                 <controls:LoadingAnimation>
                     <controls:LoadingAnimation.RenderTransform>
                         <ScaleTransform ScaleX="0.35" ScaleY="0.35" />
@@ -65,7 +65,7 @@
                 <Button Content="Search" Command="{Binding Path=SearchMovieCommand}" Width="70" FontFamily="Roboto" FontSize="14" Opacity="0.6"/>
                 <ComboBox Margin="10,0,0,0" Width="120" ItemsSource="{Binding MovieResults}" SelectedItem="{Binding SelectedMovie}" 
                           FontFamily="Roboto" VerticalContentAlignment="Center" FontSize="14"
-                          Visibility="{Binding IsLoaded, Converter={StaticResource booleanToVisibilityConverter}}" Opacity="0.6">
+                          Visibility="{Binding IsLoaded, Converter={StaticResource BooleanToVisibilityConverter}}" Opacity="0.6">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate DataType="v3:MovieResult">
                             <TextBlock Text="{Binding original_title}" VerticalAlignment="Center" FontFamily="Roboto" FontSize="13" />
@@ -82,13 +82,13 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Border Background="{StaticResource BoxBackground}" BorderThickness="1" BorderBrush="Black" CornerRadius="15" Margin="10" Visibility="{Binding InfoVisibility}">
-                    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Left" Margin="5">
+                    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="5">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto" />
                             <ColumnDefinition />
                         </Grid.ColumnDefinitions>
                         <Grid Grid.Column="0">
-                            <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Stretch" Background="Transparent" Visibility="{Binding IsLoaded, Converter={StaticResource booleanToVisibilityConverter}}">
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Stretch" Background="Transparent" Visibility="{Binding IsLoaded, Converter={StaticResource BooleanToVisibilityConverter}}">
                                 <Border CornerRadius="10,10,0,0">
                                     <Image Stretch="Uniform" Source="{Binding Poster}" Width="300" />
                                 </Border>

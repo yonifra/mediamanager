@@ -13,7 +13,7 @@ namespace MediaManager
         public static BitmapImage GetImageFromUri(Uri uri)
         {
             var image = new BitmapImage();
-            int BytesToRead = 100;
+            int bytesToRead = 100;
 
             try
             {
@@ -24,13 +24,13 @@ namespace MediaManager
                 BinaryReader reader = new BinaryReader(responseStream);
                 MemoryStream memoryStream = new MemoryStream();
 
-                byte[] bytebuffer = new byte[BytesToRead];
-                int bytesRead = reader.Read(bytebuffer, 0, BytesToRead);
+                byte[] bytebuffer = new byte[bytesToRead];
+                int bytesRead = reader.Read(bytebuffer, 0, bytesToRead);
 
                 while (bytesRead > 0)
                 {
                     memoryStream.Write(bytebuffer, 0, bytesRead);
-                    bytesRead = reader.Read(bytebuffer, 0, BytesToRead);
+                    bytesRead = reader.Read(bytebuffer, 0, bytesToRead);
                 }
 
                 image.BeginInit();
