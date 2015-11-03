@@ -9,6 +9,7 @@
         xmlns:v3="clr-namespace:WatTmdb.V3;assembly=WatTmdb" xmlns:viewModel="clr-namespace:MediaManager.ViewModel"
         xmlns:controls1="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
                        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+                       xmlns:mediaManager="clr-namespace:MediaManager"
                        Title="Media Manager" WindowState="Maximized" Icon="/MediaManager;component/Images/osa_server_media.png">
     <controls1:MetroWindow.Resources>
         <viewModel:MovieInfoViewModel x:Key="MovieInfoViewModel" />
@@ -61,8 +62,9 @@
             </DockPanel>
 
             <StackPanel Orientation="Horizontal" Grid.Column="0" HorizontalAlignment="Center" Margin="5">
-                <TextBox Text="{Binding MovieToSearch}" Width="260" FontFamily="Roboto" FontSize="20" Margin="5,0,5,0" Opacity="0.6" />
-                <Button Content="Search" Command="{Binding Path=SearchMovieCommand}" Width="70" FontFamily="Roboto" FontSize="14" Opacity="0.6"/>
+                <TextBox Text="{Binding MovieToSearch, UpdateSourceTrigger=PropertyChanged}" Width="260" FontFamily="Roboto" FontSize="20" Margin="5,0,5,0" Opacity="0.6" 
+                         mediaManager:MainWindow.TextBoxPressEnterCommand="{Binding SearchMovieCommand}" KeyDown="TextBox_KeyDown"/>
+                <Button Content="Search" Command="{Binding SearchMovieCommand}" Width="70" FontFamily="Roboto" FontSize="14" Opacity="0.6"/>
                 <ComboBox Margin="10,0,0,0" Width="120" ItemsSource="{Binding MovieResults}" SelectedItem="{Binding SelectedMovie}" 
                           FontFamily="Roboto" VerticalContentAlignment="Center" FontSize="14"
                           Visibility="{Binding IsLoaded, Converter={StaticResource BooleanToVisibilityConverter}}" Opacity="0.6">
