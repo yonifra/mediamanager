@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Threading.Tasks;
 using System.Windows.Data;
+using System.Windows.Media.Imaging;
 using WatTmdb.V3;
 
 namespace MediaManager.Converters
@@ -16,16 +18,13 @@ namespace MediaManager.Converters
 
             var profilePath = value as string;
 
-            if (profilePath != null)
-            {
-                var image =
-                    Helper.GetImageFromUri(
+            return profilePath != null ? GetImageAsync(profilePath) : null;
+        }
+
+        public async Task<BitmapImage> GetImageAsync(string profilePath)
+        {
+            return await Helper.GetImageFromUri(
                         new Uri(_tmdbConfig.images.base_url + _tmdbConfig.images.profile_sizes[0] + profilePath));
-
-                return image;
-            }
-
-            return null;
         }
         
         public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)

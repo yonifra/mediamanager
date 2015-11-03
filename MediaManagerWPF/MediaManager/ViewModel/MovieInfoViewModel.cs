@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Globalization;
-using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -18,7 +17,6 @@ namespace MediaManager.ViewModel
     {
         #region Members
 
-        private readonly IDataService _dataService;
         private readonly Tmdb _api;
         private readonly TmdbConfiguration _tmdbConfig;
         private string _mMovieName;
@@ -68,8 +66,7 @@ namespace MediaManager.ViewModel
         public MovieInfoViewModel(IDataService dataService)
             : this()
         {
-            _dataService = dataService;
-            _dataService.GetData(
+            dataService.GetData(
                 (item, error) =>
                 {
                     if (error != null)
@@ -97,7 +94,7 @@ namespace MediaManager.ViewModel
                 if (_mMovieCastMembers != value)
                 {
                     _mMovieCastMembers = value;
-                    RaisePropertyChanged("CastMembers");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -113,7 +110,7 @@ namespace MediaManager.ViewModel
                 if (_mMovieToSearch != value)
                 {
                     _mMovieToSearch = value;
-                    RaisePropertyChanged("MovieToSearch");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -150,7 +147,7 @@ namespace MediaManager.ViewModel
                 if (_mMovieGenre != value)
                 {
                     _mMovieGenre = value;
-                    RaisePropertyChanged("MovieGenre");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -163,7 +160,7 @@ namespace MediaManager.ViewModel
                 if (_mShowTrailer == value) return;
 
                 _mShowTrailer = value;
-                RaisePropertyChanged("ShowTrailer");
+                RaisePropertyChanged();
                 RaisePropertyChanged("TrailerVisibility");
             }
         }
@@ -176,7 +173,7 @@ namespace MediaManager.ViewModel
                 if (_mShowInfo != value)
                 {
                     _mShowInfo = value;
-                    RaisePropertyChanged("ShowInfo");
+                    RaisePropertyChanged();
                     RaisePropertyChanged("InfoVisibility");
                 }
             }
@@ -206,7 +203,7 @@ namespace MediaManager.ViewModel
                 if (_mMovieSynopsis != value)
                 {
                     _mMovieSynopsis = value;
-                    RaisePropertyChanged("Synopsis");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -222,7 +219,7 @@ namespace MediaManager.ViewModel
                 if (_mIsLoading != value)
                 {
                     _mIsLoading = value;
-                    RaisePropertyChanged("IsLoading");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -238,7 +235,7 @@ namespace MediaManager.ViewModel
                 if (_mIsLoaded != value)
                 {
                     _mIsLoaded = value;
-                    RaisePropertyChanged("IsLoaded");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -254,7 +251,7 @@ namespace MediaManager.ViewModel
                 if (_mMovieResults != value)
                 {
                     _mMovieResults = value;
-                    RaisePropertyChanged("MovieResults");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -270,7 +267,7 @@ namespace MediaManager.ViewModel
                 if (_mRuntime != value)
                 {
                     _mRuntime = value;
-                    RaisePropertyChanged("Runtime");
+                    RaisePropertyChanged();
                     RaisePropertyChanged("RuntimeText");
                 }
             }
@@ -300,7 +297,7 @@ namespace MediaManager.ViewModel
                 if (_mRevenue != value)
                 {
                     _mRevenue = value;
-                    RaisePropertyChanged("Revenue");
+                    RaisePropertyChanged();
                     RaisePropertyChanged("RevenueText");
                 }
             }
@@ -329,7 +326,7 @@ namespace MediaManager.ViewModel
                 if (!(_mActorImage == value))
                 {
                     _mActorImage = value;
-                    RaisePropertyChanged("ActorImage");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -345,7 +342,7 @@ namespace MediaManager.ViewModel
                 if (_mMovieName != value)
                 {
                     _mMovieName = value;
-                    RaisePropertyChanged("Name");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -361,7 +358,7 @@ namespace MediaManager.ViewModel
                 if (_mMoviePoster != value)
                 {
                     _mMoviePoster = value;
-                    RaisePropertyChanged("Poster");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -377,7 +374,7 @@ namespace MediaManager.ViewModel
                 if (_mTagline != value)
                 {
                     _mTagline = value;
-                    RaisePropertyChanged("Tagline");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -393,7 +390,7 @@ namespace MediaManager.ViewModel
                 if (_mMovieBackPoster != value)
                 {
                     _mMovieBackPoster = value;
-                    RaisePropertyChanged("BackgroundPoster");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -414,7 +411,7 @@ namespace MediaManager.ViewModel
                 if (_mMovieYear != value)
                 {
                     _mMovieYear = value;
-                    RaisePropertyChanged("Year");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -436,7 +433,7 @@ namespace MediaManager.ViewModel
                         RefreshMovie(_mSelectedMovie.id);
                     }
 
-                    RaisePropertyChanged("SelectedMovie");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -457,7 +454,7 @@ namespace MediaManager.ViewModel
                 if (_mMovieRating != value)
                 {
                     _mMovieRating = value;
-                    RaisePropertyChanged("Rating");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -473,7 +470,7 @@ namespace MediaManager.ViewModel
                 if (_mMovieReleaseDate != value)
                 {
                     _mMovieReleaseDate = value;
-                    RaisePropertyChanged("ReleaseDate");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -489,7 +486,7 @@ namespace MediaManager.ViewModel
                 if (!(_mTrailerSource == value))
                 {
                     _mTrailerSource = value;
-                    RaisePropertyChanged("TrailerSource");
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -499,11 +496,11 @@ namespace MediaManager.ViewModel
             get { return _mSearchMovieCommand ?? (_mSearchMovieCommand = new RelayCommand(param => SearchMoviesAsync())); }
         }
 
-        private void SearchMoviesAsync()
+        private async void SearchMoviesAsync()
         {
             IsLoading = true;
 
-            Task.Factory.StartNew(SearchMovies).ContinueWith(antecedent =>
+            await Task.Factory.StartNew(SearchMovies).ContinueWith(antecedent =>
                         {
                             if (_searchResults == null || _searchResults.results.Count == 0)
                             {
@@ -515,7 +512,7 @@ namespace MediaManager.ViewModel
 
                                 if (MovieResults.Count > 0)
                                 {
-                                    Application.Current.Dispatcher.Invoke(new Action(() => UpdateMovieInfo(MovieResults[0].id)));
+                                    Application.Current.Dispatcher.Invoke(() => UpdateMovieInfo(MovieResults[0].id));
                                     //UpdateMovieInfo(MovieResults[0].id);
                                 }
                             }
@@ -535,22 +532,21 @@ namespace MediaManager.ViewModel
                 if (_mSimilarMovies != value)
                 {
                     _mSimilarMovies = value;
-                    RaisePropertyChanged("SimilarMovies");
+                    RaisePropertyChanged();
 
                     Application.Current.Dispatcher.Invoke(InitializeSimilarMovies);
                 }
             }
         }
 
-        private void InitializeSimilarMovies()
+        private async void InitializeSimilarMovies()
         {
             SimilarMoviesCollection.Clear();
 
             foreach (var movie in _mSimilarMovies.results)
             {
                 SimilarMoviesCollection.Add(new MovieViewModel(
-                    movie.id,
-                    Helper.GetImageFromUri(new Uri(
+                    movie.id, await Helper.GetImageFromUri(new Uri(
                             _tmdbConfig.images.base_url +
                             _tmdbConfig.images.poster_sizes[_tmdbConfig.images.poster_sizes.Count - 2] + movie.poster_path,
                             UriKind.Absolute)),
@@ -569,7 +565,7 @@ namespace MediaManager.ViewModel
             _searchResults = _api.SearchMovie(MovieToSearch, 1);
         }
 
-        internal void UpdateMovieInfo(int movieId)
+        internal async void UpdateMovieInfo(int movieId)
         {
             Name = _api.GetMovieInfo(movieId).title;
             var cast = _api.GetMovieCast(movieId);
@@ -583,8 +579,8 @@ namespace MediaManager.ViewModel
 
                 try
                 {
-                    Poster = Helper.GetImageFromUri(new Uri(_tmdbConfig.images.base_url + _tmdbConfig.images.poster_sizes[_tmdbConfig.images.poster_sizes.Count - 2] + movie.poster_path, UriKind.Absolute));
-                    BackgroundPoster = Helper.GetImageFromUri(new Uri(_tmdbConfig.images.base_url + _tmdbConfig.images.backdrop_sizes[_tmdbConfig.images.backdrop_sizes.Count - 2] + movie.backdrop_path, UriKind.Absolute));
+                    Poster = await Helper.GetImageFromUri(new Uri(_tmdbConfig.images.base_url + _tmdbConfig.images.poster_sizes[_tmdbConfig.images.poster_sizes.Count - 2] + movie.poster_path, UriKind.Absolute));
+                    BackgroundPoster = await Helper.GetImageFromUri(new Uri(_tmdbConfig.images.base_url + _tmdbConfig.images.backdrop_sizes[_tmdbConfig.images.backdrop_sizes.Count - 2] + movie.backdrop_path, UriKind.Absolute));
                 }
                 catch
                 {
@@ -595,9 +591,9 @@ namespace MediaManager.ViewModel
                 Synopsis = movie.overview;
                 Tagline = movie.tagline;
                 Runtime = movie.runtime;
-                Rating = movie.vote_average.ToString();
+                Rating = movie.vote_average.ToString(CultureInfo.InstalledUICulture);
 
-                if (!String.IsNullOrEmpty(movie.release_date))
+                if (!string.IsNullOrEmpty(movie.release_date))
                 {
                     Year = movie.release_date.Substring(0, 4);
                 }

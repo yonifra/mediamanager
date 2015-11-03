@@ -140,3 +140,4 @@ C:\Users\yonif\Source\Repos\mediamanager\MediaManagerWPF\MediaManager\obj\x86\De
 C:\Users\yonif\Source\Repos\mediamanager\MediaManagerWPF\MediaManager\obj\x86\Debug\MediaManager.g.resources
 C:\Users\yonif\Source\Repos\mediamanager\MediaManagerWPF\MediaManager\obj\x86\Debug\MediaManager.Properties.Resources.resources
 C:\Users\yonif\Source\Repos\mediamanager\MediaManagerWPF\MediaManager\obj\x86\Debug\MediaManager.csproj.GenerateResource.Cache
+C:\Users\yonif\Source\Repos\mediamanager\MediaManagerWPF\MediaManager\obj\x86\Debug\MediaManager.csprojResolveAssemblyReference.cache

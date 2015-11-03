@@ -1,31 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Net;
 using System.Windows.Media.Imaging;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace MediaManager
 {
     static public class Helper
     {
-        public static BitmapImage GetImageFromUri(Uri uri)
+        public static async Task<BitmapImage> GetImageFromUri(Uri uri)
         {
             var image = new BitmapImage();
-            int bytesToRead = 100;
+            const int bytesToRead = 100;
 
             try
             {
-                WebRequest request = WebRequest.Create(uri);
+                var request = WebRequest.Create(uri);
                 request.Timeout = -1;
-                WebResponse response = request.GetResponse();
-                Stream responseStream = response.GetResponseStream();
-                BinaryReader reader = new BinaryReader(responseStream);
-                MemoryStream memoryStream = new MemoryStream();
+                
+                var response = await GetWebResponse(request);
+                var responseStream = response.GetResponseStream();
+                var reader = new BinaryReader(responseStream);
+                var memoryStream = new MemoryStream();
 
-                byte[] bytebuffer = new byte[bytesToRead];
-                int bytesRead = reader.Read(bytebuffer, 0, bytesToRead);
+                var bytebuffer = new byte[bytesToRead];
+                var bytesRead = reader.Read(bytebuffer, 0, bytesToRead);
 
                 while (bytesRead > 0)
                 {
@@ -45,6 +44,11 @@ namespace MediaManager
             {
                 return new BitmapImage();
             }
+        }
+
+        private static async Task<WebResponse> GetWebResponse(WebRequest request)
+        {
+            return await Task.Run(() => request.GetResponse());
         }
     }
 }

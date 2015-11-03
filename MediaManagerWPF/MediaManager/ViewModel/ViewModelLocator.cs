@@ -1,8 +1,4 @@
-﻿using GalaSoft.MvvmLight;
-using Microsoft.Practices.ServiceLocation;
-using MediaManager.Model;
-
-namespace MediaManager.ViewModel
+﻿namespace MediaManager.ViewModel
 {
     /// <summary>
     /// This class contains static references to all the view models in the
@@ -13,19 +9,11 @@ namespace MediaManager.ViewModel
     /// </summary>
     public class ViewModelLocator
     {
-        private static MovieInfoViewModel _main;
-
-        public static MovieInfoViewModel MovieInfoViewModel
-        {
-            get
-            {
-                return _main;
-            }
-        }
+        public static MovieInfoViewModel MovieInfoViewModel { get; private set; }
 
         public ViewModelLocator()
         {
-            _main = new MovieInfoViewModel();
+            MovieInfoViewModel = new MovieInfoViewModel();
         }
     }
 }
