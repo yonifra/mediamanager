@@ -228,12 +228,3 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
-
-# Additional files
-*.pdb
-*.exe
-*.g.resources
-*.i.cache
-*.baml
-*.g.cs
-*.g.i.cs
