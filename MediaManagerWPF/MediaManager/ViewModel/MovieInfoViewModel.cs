@@ -282,7 +282,7 @@ namespace MediaManager.ViewModel
                     return string.Empty;
                 }
 
-                return "Total Runtime: " + _mRuntime.ToString() + " minutes";
+                return "Total Runtime: " + _mRuntime + " minutes";
             }
         }
 
@@ -513,7 +513,6 @@ namespace MediaManager.ViewModel
                                 if (MovieResults.Count > 0)
                                 {
                                     Application.Current.Dispatcher.Invoke(() => UpdateMovieInfo(MovieResults[0].id));
-                                    //UpdateMovieInfo(MovieResults[0].id);
                                 }
                             }
                         })
@@ -539,14 +538,14 @@ namespace MediaManager.ViewModel
             }
         }
 
-        private async void InitializeSimilarMovies()
+        private void InitializeSimilarMovies()
         {
             SimilarMoviesCollection.Clear();
 
             foreach (var movie in _mSimilarMovies.results)
             {
                 SimilarMoviesCollection.Add(new MovieViewModel(
-                    movie.id, await Helper.GetImageFromUri(new Uri(
+                    movie.id, new BitmapImage(new Uri(
                             _tmdbConfig.images.base_url +
                             _tmdbConfig.images.poster_sizes[_tmdbConfig.images.poster_sizes.Count - 2] + movie.poster_path,
                             UriKind.Absolute)),
@@ -565,7 +564,7 @@ namespace MediaManager.ViewModel
             _searchResults = _api.SearchMovie(MovieToSearch, 1);
         }
 
-        internal async void UpdateMovieInfo(int movieId)
+        internal void UpdateMovieInfo(int movieId)
         {
             Name = _api.GetMovieInfo(movieId).title;
             var cast = _api.GetMovieCast(movieId);
@@ -579,8 +578,8 @@ namespace MediaManager.ViewModel
 
                 try
                 {
-                    Poster = await Helper.GetImageFromUri(new Uri(_tmdbConfig.images.base_url + _tmdbConfig.images.poster_sizes[_tmdbConfig.images.poster_sizes.Count - 2] + movie.poster_path, UriKind.Absolute));
-                    BackgroundPoster = await Helper.GetImageFromUri(new Uri(_tmdbConfig.images.base_url + _tmdbConfig.images.backdrop_sizes[_tmdbConfig.images.backdrop_sizes.Count - 2] + movie.backdrop_path, UriKind.Absolute));
+                    Poster = new BitmapImage(new Uri(_tmdbConfig.images.base_url + _tmdbConfig.images.poster_sizes[_tmdbConfig.images.poster_sizes.Count - 2] + movie.poster_path, UriKind.Absolute));
+                    BackgroundPoster = new BitmapImage(new Uri(_tmdbConfig.images.base_url + _tmdbConfig.images.backdrop_sizes[_tmdbConfig.images.backdrop_sizes.Count - 2] + movie.backdrop_path, UriKind.Absolute));
                 }
                 catch
                 {

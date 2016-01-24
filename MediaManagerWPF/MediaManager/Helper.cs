@@ -15,28 +15,31 @@ namespace MediaManager
 
             try
             {
-                var request = WebRequest.Create(uri);
-                request.Timeout = -1;
-                
-                var response = await GetWebResponse(request);
-                var responseStream = response.GetResponseStream();
-                var reader = new BinaryReader(responseStream);
-                var memoryStream = new MemoryStream();
-
-                var bytebuffer = new byte[bytesToRead];
-                var bytesRead = reader.Read(bytebuffer, 0, bytesToRead);
-
-                while (bytesRead > 0)
+                await Task.Factory.StartNew(() =>
                 {
-                    memoryStream.Write(bytebuffer, 0, bytesRead);
-                    bytesRead = reader.Read(bytebuffer, 0, bytesToRead);
-                }
+                    var request = WebRequest.Create(uri);
+                    request.Timeout = -1;
 
-                image.BeginInit();
-                memoryStream.Seek(0, SeekOrigin.Begin);
+                    var response = GetWebResponse(request).Result;
+                    var responseStream = response.GetResponseStream();
+                    var reader = new BinaryReader(responseStream);
+                    var memoryStream = new MemoryStream();
 
-                image.StreamSource = memoryStream;
-                image.EndInit();
+                    var bytebuffer = new byte[bytesToRead];
+                    var bytesRead = reader.Read(bytebuffer, 0, bytesToRead);
+
+                    while (bytesRead > 0)
+                    {
+                        memoryStream.Write(bytebuffer, 0, bytesRead);
+                        bytesRead = reader.Read(bytebuffer, 0, bytesToRead);
+                    }
+
+                    image.BeginInit();
+                    memoryStream.Seek(0, SeekOrigin.Begin);
+
+                    image.StreamSource = memoryStream;
+                    image.EndInit();
+                });
 
                 return image;
             }
