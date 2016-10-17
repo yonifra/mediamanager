@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Globalization;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -115,13 +116,7 @@ namespace MediaManager.ViewModel
             }
         }
 
-        public string SynopsisHeader
-        {
-            get
-            {
-                return !string.IsNullOrEmpty(Synopsis) ? "Synopsis" : string.Empty;
-            }
-        }
+        public string SynopsisHeader => !string.IsNullOrEmpty(Synopsis) ? "Synopsis" : string.Empty;
 
         public string CastHeader
         {
@@ -179,21 +174,9 @@ namespace MediaManager.ViewModel
             }
         }
 
-        public Visibility InfoVisibility
-        {
-            get
-            {
-                return ShowInfo ? Visibility.Visible : Visibility.Collapsed;
-            }
-        }
+        public Visibility InfoVisibility => ShowInfo ? Visibility.Visible : Visibility.Collapsed;
 
-        public Visibility TrailerVisibility
-        {
-            get
-            {
-                return ShowTrailer ? Visibility.Visible : Visibility.Collapsed;
-            }
-        }
+        public Visibility TrailerVisibility => ShowTrailer ? Visibility.Visible : Visibility.Collapsed;
 
         public string Synopsis
         {
@@ -311,7 +294,7 @@ namespace MediaManager.ViewModel
                     return string.Empty;
 
                 var revenueString = _mRevenue.ToString("C0", CultureInfo.CreateSpecificCulture("en-US"));
-                return String.Format("Revenue: {0}", revenueString);
+                return $"Revenue: {revenueString}";
             }
         }
 
@@ -632,7 +615,7 @@ namespace MediaManager.ViewModel
             if (trailers.youtube.Count > 0)
             {
                 ShowTrailer = true;
-                TrailerSource = new Uri("http://www.youtube.com/embed/" + trailers.youtube[0].source, UriKind.Absolute);
+                TrailerSource = new Uri("http://www.youtube.com/embed/" + trailers.youtube.First().source, UriKind.Absolute);
             }
             else
             {
